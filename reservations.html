@@ -59,27 +59,27 @@
 
       <!--INICIO FORM RESERVAS-->
 
-      <div class="containerReserva">
-		<div class="reservations-box">
-			
-				<div class="left1" ></div>
-			
-			<div class="right1">
+      <div class="container">
+		<div class="contact-box">
+			<div class="left" id="left1"></div>
+			<div class="right">
 				<h2>Hacé tu reserva</h2>
-				<label for="name">Nombre y Apellido</label>
-				<input type="text" class="campo" id="name">
-				<label for="date">Seleccione la fecha</label>
-				<input id="date" type="date" class="campo" min="2021-10-22" max="2022-03-30">
-				<label for="telefono">Teléfono</label>
-				<input  id="telefono" type="text" class="campo">
-				<label for="cantidad">Cantidad de personas</label>
-				<input id="cantidad" class="campo" type="number">
-				
-				<button class="btn boton" onclick="alert('Fecha reservada')">Reservar</button>
+        <label for="name">Nombre</label>
+				<input id="name" type="text" class="campo">
+        <label for="email">Email</label>
+				<input id="email" type="text" class="campo">
+        <label for="telefono">Teléfono</label>
+				<input type="text" class="campo" id="telefono">
+        <label for="cantidad">Cantidad de personas</label>
+        <input type="number" id="cantidad" class="campo" min="1" max="10">
+        <label for="fecha">Fecha</label>
+        <input type="month" id="fecha" class="campo" name="bdaymonth">
+				<button class="btn boton"  onclick="alert('Mensaje enviado')">Enviar</button>
 			</div>
 		</div>
 	</div>
 
+    
 
       <!--FIN FORM RESERVAS-->
 
@@ -102,8 +102,8 @@
                 <img class="mr-2" src="./img/logocala.png" alt="Logo Cala Bistro">
             </a>
             <ul class="col-4" id="footer-social">
-                <li class="font-weight-bold text-uppercase"><a href="#">Mantenete en contacto</a></li>
-                <li id="li-social">
+                <li class="font-weight-bold text-uppercase li-social"><a href="#">Mantenete en contacto</a></li>
+                <li class="li-social">
 
                     <a href="https://www.facebook.com/Cala-Bistr%C3%B3-111409961166723" target="blank" class="text-reset">  
                         <i class="fab fa-facebook"></i>
